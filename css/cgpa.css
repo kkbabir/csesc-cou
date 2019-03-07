@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css?family=Patua+One');
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+
+}
+::-moz-scrollbar {
+  width: 10px;
+  
+}
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 80px yellow; 
+  border-radius: 100px;
+  
+}
+::-moz-scrollbar-track {
+  box-shadow: inset 0 0 80px yellow; 
+  border-radius: 100px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(10,20,100,0.8); 
+  border-radius: 310px;
+}
+::-moz-scrollbar-thumb {
+  background: rgba(10,20,100,0.8); 
+  border-radius: 310px;
+}
+
+html {
+  scroll-behavior: smooth;
+ transition:10s;
+}
+#fina{
+	
+	
+	color:#E50CFD;
+}
+.btn-success{
+	transition:0.30s;
+	position:relative;
+}
+.btn-success:hover{
+	transition:0.30s;
+	position:relative;
+}
+.cpab{
+
+	
+	color:#72A7FD;
+	text-align:center;
+	font-size:120px;
+	
+}
+
+
+ body{
+	 
+	     font-family: 'Patua One', cursive; 
+	 } 
+	 .ss {
+		 display:none;
+	 }
+	 h1{
+	  text-shadow:1px 3px 4px #333E89;
+	   color:#445CF7;
+	 }
+	   .container{
+	       background:rgba(5,0,15,2);
+		 
+		
+	   }
+	  td{
+	       color:rgba(253,180,44,2); 
+	   
+	   }
+	   input{
+		      background:rgba(05,05,25,1);
+			  text-align:center;
+			   border-radius: 8px;
+			   border-color:green;
+			   transition:0.40s;	
+			   
+		   }
+	   input:hover{
+	       border-color:#0B9BFB;
+           transition:0.40s;		   
+	   
+	   }
+	 #show{
+	 background:rgba(05,25,65,0.7);
+	 height:30px;
+	  color:#0BFD78;
+	 border-radius: 8px;
+	 text-align:center;
+	 }
+	 #show2,#show21,#show22,#show31,#show32,#show41,#show42{
+	  background:rgba(05,25,65,0.7);
+	 height:30px;
+	color:#0BFD78;
+	 border-radius: 8px;
+	 text-align:center;
+	 }
+	#showf,#showf2,#showf21,#showf22,#showf31,#showf32,#showf41,#showf42{
+	  background:rgba(05,25,65,0.7);
+	 height:30px;
+	 width:90px;
+	color:#0BFD78;
+	 border-radius: 8px;
+	 text-align:center;
+	 }
+	
+	 .aa{
+		 
+		 display:none;
+	 }
+	 .as{
+		 
+		 display:none;
+	 }
+	.navbar ul{
+		
+		float:right;
+	} 
+    .glyphico{
+	  position:absolute;
+	  text-align:center;
+	 width:17%;
+	 height:100%;
+	top:0px;
+	left:30px;
+	transition:0.30s;
+	}
+	.glyphico:hover{
+		opacity:0.5;
+		transition:0.30s;
+		
+	}
+ .navbar{
+	background:rgba(10,40,30,0.4);
+	color:red;
+	z-index:2;
+	}
+.navbar li a{
+	color:#17F0F7;
+  font-size:15px;
+transition:0.30s;
+}
+.navbar li a:hover{
+   color:#455484;
+   background:none;
+   transition:0.30s;
+     
+}
+
+@media only screen and (max-width : 768px){
+	.as a{
+		 
+		 display:none;
+	 }
+	.navbar ul{
+		
+		float:right;
+	}
+	.navbar li {
+	
+		display:inline-block;
+	}
+	 .glyphico{
+	  
+	  margin-top:12px;
+	  margin-left:50px;
+	position:absolute;
+	}
+	
+	
+}
+@media only screen and (max-width : 550px){
+	
+	
+	 .glyphico{
+	  
+	top:-10px;
+	  margin-left:-20px;
+	
+	}
+	
+	
+}
+
+@media only screen and (max-width : 510px){
+	
+	td{
+		
+		font-size:12px;
+	}
+	
+	.navbar li a{
+  font-size:12px;
+transition:0.30s;
+margin-left:-10px;
+}
+	.navbar{
+		background:none;
+		
+	}
+	
+	 .glyphico{
+	margin-left:-35px;
+	
+	}
+	.nav ul{
+		
+		margin-right:-25px;}
+		h1 {
+			
+			font-size:20px;
+		}
+	
+}
+.kk{
+	right:0;
+	color:red;
+	float:right;
+}
+@media only screen and (max-width : 440px){
+	.navbar  li {
+	    display:block;
+	    margin-left:-160px;
+		padding-bottom:3px;
+	}
+	.sidenav {
+  height: 50%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 20;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 30px;
+}
+
+.sidenav a {
+  
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 20px;
+  font-size: 36px;
+  margin-left: 10px;
+}
+	
+	
+	
+	.ss{
+		
+		display:block;
+	}
+	
+	td{
+		
+		font-size:12px;
+	}
+	
+	.navbar li a{
+  font-size:12px;
+transition:0.30s;
+}
+	.navbar{
+		background:none;
+		
+	}
+	
+	 .glyphico{
+	margin-top:3px;
+	  width:17%;
+	  left:60px;
+	  
+	}
+	.nav ul{
+		
+		}
+		h1 {
+			
+			font-size:20px;
+		}
+		 .aa{
+			 
+		 position:;
+		 display:block;
+		margin-right:15px;
+		
+		
+		cursor:pointer;
+		
+		 transition:0.30s
+	 }
+	 
+	 .aa:hover{
+	  opacity:0.4;
+	  transition:0.30s;
+	}
+	 .ak {
+		 
+		 display:none;
+	 }
+	 .as{
+		 
+		 display:block;
+	 }
+	
+.ll{
+	
+	height:8%;
+	width:20%;
+	float:right;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
