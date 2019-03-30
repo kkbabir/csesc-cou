@@ -54,7 +54,28 @@ html {
 	font-size:120px;
 	
 }
-
+.hk{
+	border:none;
+	border-radius:30px;
+	background:rgba(70,50,80,0.3);
+	height:400px;
+}
+.btn-block{
+	
+	border-radius:50px 50px 0px 0px;
+}
+h1{
+    background:rgba(5,5,5,0.2);
+	border-radius:10px;
+	padding:5px;
+	color:#E5FB69;
+	font-size:25px;
+	font-family:Georgia;
+  }
+ .back{
+	box-shadow:-1px -20px 30px -1px rgba(5,25,15,1) ;
+	z-index:1;
+  }
 
  body{
 	 
@@ -329,6 +350,10 @@ transition:0.30s;
 	height:8%;
 	width:20%;
 	float:right;
+}
+	.ff{
+	
+	margin-top:-35px;
 }
 }
 
