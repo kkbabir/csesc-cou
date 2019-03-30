@@ -84,10 +84,7 @@ h1{
 	 .ss {
 		 display:none;
 	 }
-	 h1{
-	  text-shadow:1px 3px 4px #333E89;
-	   color:#445CF7;
-	 }
+	
 	   .container{
 	      
 		 box-shadow:-1px -20px 30px -1px rgba(5,25,15,1) ;
@@ -356,7 +353,7 @@ transition:0.30s;
 }
 	.ff{
 	
-	margin-top:-35px;
+	margin-top:-28px;
 }
 }
 
