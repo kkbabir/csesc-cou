@@ -89,14 +89,17 @@ h1{
 	   color:#445CF7;
 	 }
 	   .container{
-	       background:rgba(5,0,15,2);
-		 
+	      
+		 box-shadow:-1px -20px 30px -1px rgba(5,25,15,1) ;
 		
 	   }
 	  td{
 	       color:rgba(253,180,44,2); 
 	   
 	   }
+.kk{
+text-shadow:1px 1px 3px black;
+}
 	   input{
 		      background:rgba(05,05,25,1);
 			  text-align:center;
